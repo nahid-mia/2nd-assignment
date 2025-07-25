@@ -1,0 +1,52 @@
+.header_head{
+    height: 71px;
+    display: flex;
+    justify-content: space-between;
+    margin: 2% 10%;
+    align-items: center;
+}
+
+
+header ul{
+    text-decoration: none;
+    display: flex;
+    gap: 40px;
+    align-items: center;
+}
+
+header ul li{
+    list-style: none;
+}
+
+.cart_logo{
+    height: 20px;
+}
+
+.li2, .li3{
+    color: gray;
+}
+
+
+.header_body{
+    display: flex;
+    justify-content: space-between;
+    margin: 2% 10%;
+    align-items: center;
+}
+
+#head{
+    font-size: 70px;
+}
+
+.orange{
+    color: rgb(255, 115, 0);
+}
+
+.topic{
+    width: 50%;
+}
+
+#topic{
+    font-size: larger;
+    color: grey;
+}
