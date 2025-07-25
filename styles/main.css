@@ -1,0 +1,43 @@
+.main{
+    padding: auto;
+    text-align: center;
+    gap: 40px;
+}
+
+.size{
+    font-size: 25px;
+    align-items: center;
+    font-weight: bolder;
+}
+.siz{
+    font-size: 20px;
+    align-items: center;
+    font-weight: bold;
+}
+
+.box{
+    display:flex ;
+    flex-direction: column;
+    align-items: center;
+    width: 270px;
+}
+.btn-primary{
+    width: 100%;
+    overflow: hidden;
+    background-color: darkorange;
+    color: white;
+    text-size-adjust: auto;
+    height: 50px;
+    border-color: darkorange;
+}
+
+.container{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    padding: auto;
+    row-gap: 40px;
+    padding-left: 180px;
+    column-gap: -80px;
+    justify-content: center;
+    padding-right: 40px;
+}
