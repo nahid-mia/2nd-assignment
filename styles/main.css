@@ -35,9 +35,8 @@
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     padding: auto;
-    row-gap: 40px;
-    padding-left: 180px;
+    row-gap: 50px;
     column-gap: -80px;
     justify-content: center;
-    padding-right: 40px;
+    margin: 2% 2% 2% 10%;
 }
