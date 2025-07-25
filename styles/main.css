@@ -1,7 +1,8 @@
 .main{
     padding: auto;
     text-align: center;
-    gap: 40px;
+    gap: 80px;
+    padding: auto;
 }
 
 .size{
@@ -10,9 +11,11 @@
     font-weight: bolder;
 }
 .siz{
-    font-size: 20px;
+    font-size: 1.25rem;
     align-items: center;
     font-weight: bold;
+    margin-top: 0px;
+    margin-bottom: 0px;
 }
 
 .box{
@@ -35,8 +38,43 @@
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     padding: auto;
-    row-gap: 50px;
+    row-gap: 60px;
     column-gap: -80px;
     justify-content: center;
-    margin: 2% 2% 2% 10%;
+    margin: 2% 3% 2% 10%;
+    gap: 20px;
+}
+
+.flowers{
+    padding-top: 200px;
+    display: flex;
+    margin: 2% 10%;
+}
+
+.writtings{
+    padding-left: 40px;
+    text-align: left;
+}
+
+body ul li{
+    margin-top: 20px;
+}
+
+.Plants{
+    margin-bottom: 30px;
+}
+
+.badge{
+    width: 12rem;
+    z-index: 1;
+    margin-left: 300px;
+    margin-right: -200px;
+    position: relative;
+    margin-top: -100px;
+}
+
+.human{
+    margin-top: -110px;
+    z-index: 0;
+    position: relative;
 }
