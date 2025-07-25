@@ -78,3 +78,68 @@ body ul li{
     z-index: 0;
     position: relative;
 }
+
+#Deals{
+    margin-top: 150px;
+}
+
+#text{
+    color: white;
+    font-size: 40px;
+    font-weight: bolder;
+}
+
+#shorter{
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+    
+}
+
+#shortest{
+    color: white;
+    font-size: 20px;
+    font-weight: 300
+}
+
+#shorter_s{
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.back_image{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    margin: 2% 10%;
+    gap: 30px;
+}
+
+.shop_now{
+    position: absolute;
+    top: 40%;
+   text-align: center;
+   justify-content: center;
+   justify-items: center;
+   left: 25%;
+
+}
+
+#dual{
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    gap: 30px;
+}
+
+#bloom-plant, #ana-plant, #zabo-plant{
+    position: relative;
+    border-radius: 12px;
+    overflow: hidden;
+    height: 300px;
+    background-size: cover;
+    background-position: center;
+}
+
+#zabo-plant{
+    height: 630px;
+}

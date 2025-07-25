@@ -1,0 +1,58 @@
+.footer-1{
+    display: flex;
+    flex-direction: column;
+    background-size: cover;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 70vh;
+}
+
+.join{
+    font-size: 30px;
+    color: white;
+}
+
+#btn{
+    background-color: darkorange;
+    border: 15px solid darkorange;
+}
+
+.footer-2{
+    margin: 2% 10%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.middle{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    padding-left: -90px;
+}
+
+footer .middle ul{
+    text-decoration: none;
+}
+
+footer .middle ul li{
+    list-style: none;
+    color: grey;
+}
+
+.left{
+    text-align: left;
+}
+
+.right{
+    display: flex;
+    justify-content: space-between;
+    width: 1.5rem;
+    height: 2.5rem;
+    gap: 20px;
+    padding-right: 20px;
+}
+
+#email-box{
+    width: 20rem;
+    height: 2.5rem;
+}
